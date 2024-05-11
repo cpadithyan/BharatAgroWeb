@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+<body>
+    {% if result %}
+    <div class="card bg-dark" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='img.jpg') }}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Recommend Crop for cultivation is:</h5>
+            <p class="card-text">{{ result }}</p>
+        </div>
+    </div>
+    {% endif %}
+</body>
+</html>
