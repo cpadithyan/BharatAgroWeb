@@ -3,12 +3,14 @@ import pickle
 import numpy as np 
 from sklearn.preprocessing import LabelEncoder
 import os 
+import secrets
 
 app = Flask(__name__)
 
-# Set a secret key for the Flask application
-app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
-
+if 'SECRET_KEY' in os.environ:
+    app.secret_key = os.environ['SECRET_KEY']
+else:
+    app.secret_key = secrets.token_hex(16)
 # Define the path to the models directory
 models_dir = os.path.join(app.root_path, 'Models')
 
