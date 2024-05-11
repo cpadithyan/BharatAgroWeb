@@ -36,7 +36,7 @@ BharatAgro is a web application designed to assist farmers in making informed de
 ## Getting Started
 1. Clone the repository to your local machine.
     ```bash
-    git clone <repository_url>
+    git clone  https://github.com/anshumanbehera27/BharatAgroWeb.git
     ```
 
 2. Install the required dependencies by running the following command in your terminal:
