@@ -27,7 +27,15 @@ BharatAgro is a web application designed to assist farmers in making informed de
 - **Output**: Displays the recommended crop for cultivation in the specified location.
 
 ### webApp images 
-![Alt Text](Image URL)
+![Home page](ProjectImage/homepage.png)
+
+![Soil reports](ProjectImage/soilreport.png)
+
+![Fertilizer](ProjectImage/fertilized.png)
+
+![Location](ProjectImage/location.png)
+
+
 
 
 
